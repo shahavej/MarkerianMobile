@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test thread-count="1" name="flipkart(failed)" parallel="tests">
+    <classes>
+      <class name="com.compaspro.testcases.Project">
+        <methods>
+          <include name="login"/>
+          <include name="Add_job"/>
+          <include name="killapk"/>
+        </methods>
+      </class> <!-- com.compaspro.testcases.Project -->
+      <class name="com.compaspro.testcases.SettingsTest">
+        <methods>
+          <include name="killapk"/>
+          <include name="setup"/>
+          <include name="change_password_Test1"/>
+        </methods>
+      </class> <!-- com.compaspro.testcases.SettingsTest -->
+      <class name="com.compaspro.testcases.ForgotPasswordTest">
+        <methods>
+          <include name="killapk"/>
+          <include name="setup"/>
+          <include name="forgot_password1"/>
+        </methods>
+      </class> <!-- com.compaspro.testcases.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- flipkart(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

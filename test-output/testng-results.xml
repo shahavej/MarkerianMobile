@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43596" started-at="2020-10-23T04:36:08Z" finished-at="2020-10-23T04:36:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43596" started-at="2020-10-23T04:36:08Z" finished-at="2020-10-23T04:36:51Z">
+      <class name="com.compass.practice.InstallApk">
+        <test-method status="PASS" signature="install_Apk()[pri:0, instance:com.compass.practice.InstallApk@6e0e048a]" name="install_Apk" duration-ms="43540" started-at="2020-10-23T04:36:08Z" finished-at="2020-10-23T04:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- install_Apk -->
+      </class> <!-- com.compass.practice.InstallApk -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

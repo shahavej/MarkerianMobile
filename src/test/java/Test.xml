@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" verbose="1" name="CompassPro Test Suit"
+	annotations="JDK" parallel="tests">
+	<test name="CompassPro">
+		<classes>
+			<class name="com.compaspro.testcases.LoginTest" />
+			<class name="com.compaspro.testcases.ForgotPasswordTest" />
+			<class name="com.compaspro.testcases.SettingsTest" />
+			<class name="com.compaspro.testcases.Project" />
+		</classes>
+	</test>
+
+</suite>
